@@ -4,4 +4,9 @@
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
 
-// You can delete this file if you're not using it
+// Add here classes that you want applied to the `<html>` element
+exports.onRenderBody = ({ setHtmlAttributes }) => {
+  setHtmlAttributes({
+    className: 'leading-normal text-lg font-body text-gray-900 antialiased',
+  });
+};
