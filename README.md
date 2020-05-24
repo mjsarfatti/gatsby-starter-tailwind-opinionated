@@ -108,6 +108,15 @@ A quick look at the top-level files and directories you'll see in this Gatsby / 
 
 17. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. This file is generated in place of `package-lock.json` if you use **yarn** instead of **npm**. You may safely delete one of the two. **(You won’t change this file directly).**
 
+## ✨ Goodies
+
+- Sensible Tailwind config with defaults that most projects use and bonus transition easings and box shadows (see `tailwind.config.js`)
+- Auto-purge and minify CSS file on build
+- Absolute imports (this means you can import files as `src/components/Header` from everywhere in your codebase, and avoid `../../../../../components/Header` messes)
+- Run `prettier` through `eslint` on save if you use **VS Code** and install the recommended extensions
+- Typescript-ready out of the box
+- **Create React App** `eslint` preset with `eslint-plugin-import` to prevent issues with misspelling of file paths and import names
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
