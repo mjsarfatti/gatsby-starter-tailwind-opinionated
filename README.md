@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" height="60" />
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" height="60" />
   </a>
   &nbsp;&nbsp;
   <a href="https://tailwindcss.com">
